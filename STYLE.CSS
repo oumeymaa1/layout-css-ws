@@ -1,0 +1,151 @@
+* {
+	font-family: "Roboto", sans-serif;
+	font-weight: lighter;
+}
+/*navbar*/
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	margin: 1rem;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color:gray;
+}
+.health-intro {
+	text-align: center;
+	margin: 2% 10%;
+}
+
+.health-intro div {
+	display: flex;
+	justify-content: space-between;
+	padding: 3%;
+	line-height: 1.75;
+}
+
+.health-intro div p {
+	width: 45%;
+	text-align: start;
+	font-weight: lighter;
+}
+
+.health-intro h1 {
+	font-size: 36px;
+	padding: 2%;
+	font-weight: lighter;
+	color: #00b39b;
+}
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+    margin: 2% 10%;
+
+}
+.country div {
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+    color: gray;
+  padding: 2%;
+   
+
+}
+.country div button {
+    background-color:#3d83df;
+    color:#fff;
+    border-radius: 10%;
+    height: 2rem;
+    width: 6rem;
+}
+.country:hover {
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+}
+
+.country {
+    margin-bottom: 2%;
+    border-radius: 2%;
+}
+.patients {
+    background-color:#00ccb1;
+    margin-right: 50px;
+    height: 300px;
+    width: 30%;
+    border-radius: 5%;
+    padding: 10px;
+}
+.doctors {
+    background-color: #3d83df;
+    margin-right: 50px;
+    height: 300px;
+    width: 30%;
+    border-radius: 5%;
+    padding: 10px;
+
+}
+.clinics {
+    background-color: #747474;
+    height: 300px;
+    width: 30%;
+    border-radius: 5%;
+    padding: 10px;
+
+}
+.services {
+    display: flex;
+    margin: 2% 10%;
+    justify-content: space-around;
+    padding: 15px;
+    color: #fff;
+
+}
+.patients select {
+    background-color: #00ccb1;
+    color: #fff;
+    border:none;
+    text-decoration: underline;
+    margin-top: 50px;
+    }
+.doctors select {
+    background-color:#3d83df ;
+    color: #fff;
+    border:none;
+    text-decoration: underline;
+    display: flex;
+    margin-top: 100px;
+
+}
+.clinics select {
+    background-color:#747474;
+    color: #fff;
+    border:none;
+    text-decoration: underline;
+    margin-top: 20px;
+
+}   
+ .services div p {
+    font-size: 1.5em;
+    font-weight:100;
+    line-height: 1.2;
+
+ }
+ .services div h1 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.2;
+
+ }
